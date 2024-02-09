@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Styled Table</title>
+<style>
+    /* Styling for the table */
+    table {
+        width: 70%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        margin: 30px 0;
+		margin-left:15%;
+    }
+
+    /* Styling for the table header */
+    th {
+        background-color: #007bff;
+        color: #fff;
+        font-weight: bold;
+        padding: 10px;
+        text-align: left;
+    }
+
+    /* Styling for table cells */
+    td {
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+
+    /* Styling for even rows */
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    /* Styling for odd rows */
+    tr:nth-child(odd) {
+        background-color: #ffffff;
+    }
+</style>
+</head>
+<body>
+
+<table>
+    <thead>
+        <tr>
+            <th>Student Name</th>
+            <th>ID</th>
+            <th>Address</th>
+            <th>Phone</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>John Doe</td>
+            <td>12345</td>
+            <td>123 Main St, City</td>
+            <td>555-1234</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>54321</td>
+            <td>456 Elm St, Town</td>
+            <td>555-5678</td>
+        </tr>
+        <tr>
+            <td>Michael Johnson</td>
+            <td>67890</td>
+            <td>789 Oak St, Village</td>
+            <td>555-9876</td>
+        </tr>
+        <tr>
+            <td>Sarah Brown</td>
+            <td>09876</td>
+            <td>321 Maple St, County</td>
+            <td>555-4321</td>
+        </tr>
+        <tr>
+            <td>David Lee</td>
+            <td>24680</td>
+            <td>654 Pine St, Borough</td>
+            <td>555-8765</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
